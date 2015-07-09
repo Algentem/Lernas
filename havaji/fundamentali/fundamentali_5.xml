@@ -1,18 +1,15 @@
 <div class="ui container">
-	<div class="ui blue breadcrumb">
-		<a href="lessons.html" class="section">Lessons</a>
-		<i class="right chevron icon divider"></i>
-		<a class="section" href="fundamentali.html">Fundamentali</a>
-		<i class="right chevron icon divider"></i>
-		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_2.xml');">L'alfabeto</a>
-		<i class="right chevron icon divider"></i>
-		<a class="section">La pronuncado</a>
-		<i class="right chevron icon divider"></i>
-		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');">La numbri</a>
-		<i class="right chevron icon divider"></i>
-		<div class="active section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');">Ordinara frazi</div>
-		<i class="right chevron icon divider"></i>
-		<a class="section" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');">Exameno</a>
+	<div class="ui fixed vertical menu">
+		<div class="item"><div class="header">In this course:</div></div>
+		<div class="menu">
+			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_2.xml');"><p>L'alfabeto</p></a>
+			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');"><p>La pronuncado</p></a>
+			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');"><p>La numbri</p></a>
+			<div class="item active"><p>Ordinara frazi</p></div>
+			<a class="item" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');"><p>Exameno</p></a>
+			<div class="ui fitted divider"></div>
+			<a class="item" href="fundamentali.html"><p>Exit course</p></a>
+		</div>
 	</div>
 	<br>
 	<h10>Ordinara frazi (standard sentences)</h10>
