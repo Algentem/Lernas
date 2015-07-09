@@ -1,0 +1,242 @@
+<script>
+	$(document).ready(function(){
+		$("#modal").click(function(){
+			$('.ui.modal')
+			.modal({
+				blurring: true
+			})
+			.modal('show')
+		});
+		$("#modalclose").click(function(){
+			$('.ui.modal')
+			.modal({
+				blurring: true
+			})
+			.modal('hide')
+		});
+	});
+</script>
+<script>
+	function myFunction() {
+		var letter = document.getElementById("patro").value;
+		var text;
+		if (letter === "PAtro") {
+			text = "higehjika";
+		} else if (letter === "homo") {
+			text = "<center><div class='ui yellow message'><p>Preske!</p><i class='close icon' id='btn3'></i></div></center>";
+		} else {
+			text = "Zipzabzoopediboopboop";
+		}
+			document.getElementById("mesajo").innerHTML = text;
+		}
+</script>
+<div class="ui container">
+	<div class="ui blue breadcrumb">
+		<a href="lessons.html" class="section">Lessons</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" href="proreapra.html">Pronuncado- e letkado-praktiko</a>
+		<i class="right chevron icon divider"></i>
+		<div class="section">Praktiko</div>
+		<i class="right chevron icon divider"></i>
+		<div class="active section">Exameno</div>
+	</div>
+	<br>
+	<h10>Praktiko</h10>
+	<div class="ui fitted divider"></div>
+	<p>In the <b>Helpanto</b> you have the full alphabet and pronunciation for convenient help!</p>
+	<center><p><b>Patro nia - The Lords Prayer</b></p></center>
+	<table class="ui very basic table">
+		<tbody>
+			<thead>
+				<tr>
+					<th><p>Ido</p></th>
+					<th><p>English</p></th>
+				</tr>
+			</thead>
+			<tr>
+				<td><p>Patro nia qua esas en la cielo,</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="Patro" id="patro" type="text" size="7.5">
+						<div class="results"></div>
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="nia" id="nia" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="qua" id="qua" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="esas" id="esas" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="en" id="en" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="la" id="la" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="cielo" id="cielo" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Vua nomo esez santigata;</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="Vua" id="vua" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="nomo" id="nomo" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="esez" id="esez" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="santigata" id="santigata" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Vua regno arivez;</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="regno" id="regno" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="arivez" id="arivez" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Vua volo esez obediata,</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="volo" id="volo" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="esez" id="esez" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="obediata" id="obediata" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Quale en la cielo, tale sur la tero.</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="Quale" id="quale" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="tale" id="tale" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="sur" id="sur" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="tero" id="tero" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Nia singladi’ panon donez a ni cadie,</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="singladi'" id="singladia" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="panon" id="panon" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="donez" id="donez" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="a" id="ad" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="ni" id="ni" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="cadie" id="cadie"  type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>E remisez a ni nia debaji,</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="E" id="ed" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="remisez" id="remisez" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="debaji" id="debaji" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Quale anke ni remisas a nia debanti,</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="anke" id="anke" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="remisas" id="remisas" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="debanti" id="debanti" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>E ne duktez ni aden la tenteso,</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="ne" id="ne" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="duktez" id="duktez" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="aden" id="aden" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="tenteso" id="tenteso" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td><p>Ma liberigez ni del malajo.</p></td>
+				<td>
+					<div class="ui transparent input">
+						<input placeholder="Ma" id="ma" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="liberigez" id="liberigez" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="del" id="del" type="text" size="7.5">
+					</div>
+					<div class="ui transparent input">
+						<input placeholder="malajo" id="malajo" type="text" size="7.5">
+					</div>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div id="mesajo">
+		<p>Texto iras a hike</p>
+	</div>
+	<center><a class="ui yellow mini fluid animated fade button" id="myFunction()">Verifikar</a></center>
+	<br>
+	<div class="ui fluid buttons">
+		<a class="ui blue button" onclick="$('#div1').load('havaji/proreapra/proreapra_2.xml');"><i class="white icon arrow left"></i></a>
+		<div class="ui orange button" data-content="To recive the most amount of..." id="modal">Helpanto</div>
+		<a class="ui green animated fade button" onclick="$('#div1').load('havaji/proreapra/proreapra_4.xml');">
+			<div class="visible content"><i class="white icon arrow right"></i></div>
+			<div class="hidden content">Finigar</div>
+		</a>
+	</div>
+</div>

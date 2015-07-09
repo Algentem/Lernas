@@ -1,0 +1,76 @@
+<script>
+	function myFunction() {
+		var letter = document.getElementById("questiono1").value;
+		var text;
+		if (letter === "dek-e-du") {
+			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else if (letter === "dek e du") {
+			text = "<center><div class='ui green message'><p>Korekta! Altra voyo esas skribar kun streketo (-)!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else {
+			text = "<center><div class='ui red message'><p>Ne korekta!</p></div></center>";
+		}
+			document.getElementById("text").innerHTML = text;
+		}
+</script>
+<script>
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$('.ui.modal.3')
+			.modal({
+				blurring: true
+			})
+			.modal('show')
+		});
+		$("#modalclose").click(function(){
+			$('.ui.modal')
+			.modal({
+				blurring: true
+			})
+			.modal('hide')
+		});
+	});
+</script>
+<script>
+	$("#questiono1").keyup(function(event){
+		if(event.keyCode == 13){
+			$("#button").click();
+		}
+	});
+</script>
+<div class="ui container">
+	<div class="ui center aligned container">
+		<p>Write: <i>12</i> in Ido:</p>
+		<div class="ui input">
+			<input id="questiono1" type="text" class="prompt" placeholder="twelv">
+			<div class="results"></div>
+		</div>
+		<a class="ui blue button" onclick="myFunction()" id="button">Verifikar</a>
+	</div>
+	<div class="ui right aligned container">
+		<br>
+		<div id="text">
+			<center><div class="ui blue message"><p>Voluntez skribar vua divino!</p></div></center>
+		</div>
+		<br>
+	</div>
+	<center><a id="ready" class="ui green button" style="visibility:hidden" onclick="$('#div1').load('havaji/fundamentali/questiono_4.xml');"><p>Sequanta</p></a></center>
+	<br>
+	<center><div class="ui orange button" id="btn1"><p>Helpanto</p></div></center>
+</div>
+<div class="ui modal 3">
+	<div class="header">
+		<i class="idea icon"></i>
+		Helpanto:
+	</div>
+	<div class="content">
+		<div class="description">
+			<p>"dek-e-du" is you answer!</p>
+			<p>dek-e-du is made up of <u>three</u> elements! dek + e + du! "e" represents "plus"! dek + du = 12 or dek-e-du! See the "La nombri" part of this course!</p>
+			</div>
+			<br>
+			<a class="ui green fluid button" id="modalclose"><i class="checkmark icon"></i></a>
+		</div>
+	</div>
+</div>

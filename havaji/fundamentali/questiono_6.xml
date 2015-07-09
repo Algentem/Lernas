@@ -1,0 +1,76 @@
+<script>
+	function myFunction() {
+		var letter = document.getElementById("questiono1").value;
+		var text;
+		if (letter === "quale vu standas?") {
+			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else if (letter === "quale vu standas") {
+			text = "<center><div class='ui green message'><p>Korekta! Ma vu obliviis la &quot;?&quot;!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else {
+			text = "<center><div class='ui red message'><p>Ne korekta!</p></div></center>";
+		}
+			document.getElementById("text").innerHTML = text;
+		}
+</script>
+<script>
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$('.ui.modal.6')
+			.modal({
+				blurring: true
+			})
+			.modal('show')
+		});
+		$("#modalclose").click(function(){
+			$('.ui.modal')
+			.modal({
+				blurring: true
+			})
+			.modal('hide')
+		});
+	});
+</script>
+<script>
+	$("#questiono1").keyup(function(event){
+		if(event.keyCode == 13){
+			$("#button").click();
+		}
+	});
+</script>
+<div class="ui container">
+	<div class="ui center aligned container">
+		<p>Write: <i>How do you do?</i> in Ido:</p>
+		<div class="ui input">
+			<input id="questiono1" type="text" class="prompt" placeholder="how do you do?">
+			<div class="results"></div>
+		</div>
+		<a class="ui blue button" onclick="myFunction()" id="button">Verifikar</a>
+	</div>
+	<div class="ui right aligned container">
+		<br>
+		<div id="text">
+			<center><div class="ui blue message"><p>Voluntez skribar vua divino!</p></div></center>
+		</div>
+		<br>
+	</div>
+	<center><a id="ready" class="ui green button" style="visibility:hidden" onclick="$('#div1').load('havaji/fundamentali/fundamentali_6.xml');"><p>Sequanta</p></a></center>
+	<br>
+	<center><div class="ui orange button" id="btn1"><p>Helpanto</p></div></center>
+</div>
+<div class="ui modal 6">
+	<div class="header">
+		<i class="idea icon"></i>
+		Helpanto:
+	</div>
+	<div class="content">
+		<div class="description">
+			<p>"quale vu standas" is you answer!</p>
+			<p>quale - how, vu - you + standas - stand (in a condition or state)! See the "Ordinara frazi" part of this course!</p>
+			</div>
+			<br>
+			<a class="ui green fluid button" id="modalclose"><i class="checkmark icon"></i></a>
+		</div>
+	</div>
+</div>

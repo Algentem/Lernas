@@ -1,0 +1,21 @@
+<div class="ui green inverted vertical masthead center aligned segment">
+	<div class="ui container">
+		<br>
+		<h1><font color="white">Vu finita!</font></h1>
+		<div class="ui fitted divider"></div>
+		<p>Vu finita la (unesma) kurso "Fundamentali"! Multa gratulo!</p>
+	</div>
+</div>
+<div class="ui container">
+	<br>
+	<p>Nu qua? Now what? You can re-do the course, you can go over to the following course, or you can exit out and take a look at the other courses!</p>
+	<div class="ui fluid buttons">
+		<a class="ui green button" href="fundamentali.html"><i class="check circle outline icon"></i></a>
+		<a class="ui yellow button" onclick="$('#div1').load('havaji/fundamentali/fundamentali.xml');">Re-do the course</a>
+		<a class="ui purple button" href="lessons.html">Visit the course library</a>
+		<a class="ui blue animated fade button" href="proreapra.html">
+			<div class="visible content">Following course</div>
+			<div class="hidden content">Pronuncado- e lektado-praktiko</div>
+		</a>
+	</div>
+</div>

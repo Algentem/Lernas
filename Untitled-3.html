@@ -1,0 +1,121 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Hodie, the free site to learn Ido!</title>
+	<meta name="description" content="HODIE.IO">
+	<link rel="stylesheet" href="main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="Semantic-UI-master/dist/semantic.min.js"></script>
+	<link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css">
+	<link rel="shortcut icon" href="hodielogo.png">
+	<script type="text/javascript" src="main.js"></script>
+	<script>
+		function myFunction() {
+			var letter = document.getElementById("questiono1").value;
+			var text;
+			if (letter === "homi") {
+				text = "<center><div class='ui green message' id='myFunction(2)'><p>Korekta! Iras a la sequanta questiono!</p><i class='close icon' id='btn3'></i></div></center>";
+			} else if (letter === "homo") {
+				text = "<center><div class='ui yellow message'><p>Preske!</p><i class='close icon' id='btn3'></i></div></center>";
+			} else {
+				text = "<center><div class='ui red message'><p>Ne korekta!</p><i class='close icon' id='btn3'></i></div></center>";
+			}
+				document.getElementById("text").innerHTML = text;
+			}
+	</script>
+	<script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				$('.ui.modal')
+				.modal({
+					blurring: true
+				})
+				.modal('show')
+			});
+			$("#btn2").click(function(){
+				$('.ui.modal')
+				.modal({
+					blurring: true
+				})
+				.modal('hide')
+			});
+		});
+	</script>
+	<script>
+		$(document).ready(function(){
+			$('.message .close')
+			  $("#btn3").on('click', function() {
+				$(this)
+				  .closest('.message')
+				  .transition('fade')
+				;
+			  })
+			;
+		});
+	</script>
+</head>
+<div class="ui container">
+	<div class="column">
+		<a class="blue card">
+			<div class="image">
+				<img>
+			</div>
+		</a>
+	</div>
+	<div class="ui center aligned container">
+		<p>Qui esas iti?</p>
+		<div class="input-group">
+			<div class="ui input">
+				<input id="questiono1" type="text" class="prompt" placeholder="Iti esas...">
+				<div class="results"></div>
+			</div>
+		</div>
+	</div>
+	<div class="ui right aligned container">
+		<br>
+		<div id="text">
+			<center><div class="ui blue message"><p>Voluntez skribar vua divino!</p>
+				<i class="close icon" id="btn3"></i>
+			</div></center>
+		</div>
+		<br>
+	</div>
+	<div class="ui three column grid">
+		<div class="column">
+			<a class="ui blue mini fluid animated fade button" onclick="myFunction()">
+				<div class="visible content"><i class="white checkmark icon"></i></div>
+				<div class="hidden content" id="ready">Verifikar</div>
+			</a>
+		</div>
+		<div class="column">
+			<div class="ui orange mini fluid button" id="btn1">Helpanto</div>
+		</div>
+		<div class="column">
+			<div id="ready">
+				<a class="ui green disabled mini fluid button"><i class="white icon arrow right"></i></a>
+				<a class='ui green mini fluid button' href='fundamentali.html' style="visibility:hidden"><i class='white icon arrow right'></i></a>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="ui basic modal">
+	<div class="header">
+		<i class="idea icon"></i>
+		Helpanto:
+	</div>
+	<div class="content">
+		<div class="description">
+			<p>Iti esas <i>homi</i>!</p>
+			<p>In Ido, the plural marker is <i>i</i>, just as the English <i>s</i> (or at times <i>es</i>)! Since the word for <i>human (or person)</i> is <i>homo</i>, the answer has to be <i>homi</i>?</p>
+		</div>
+	</div>
+	<div class="action">
+		<div class="fluid ui inverted buttons">
+			<a class="ui green basic inverted button" id="btn2">
+				<i class="checkmark icon"></i>
+				Oke!
+			</a>
+		</div>
+	</div>
+</div>

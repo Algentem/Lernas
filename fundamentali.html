@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hodie, the free site to learn Ido!</title>
+        <meta name="description" content="HODIE.IO">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script type="text/javascript" src="Semantic-UI-master/dist/semantic.min.js"></script>
+        <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css">
+        <link rel="shortcut icon" href="havaji/imaji/hodielogo.png">
+		<script type="text/javascript" src="main.js"></script>
+		<script>
+			$(document).ready(function(){
+				$("#btn1").click(function(){
+	            	$("#div1").load("havaji/fundamentali/fundamentali.xml");
+				});
+				$("#btn2").click(function(){
+	            	$("#div1").load("havaji/fundamentali/fundamentali_2.xml");
+				});
+				$("#btn3").click(function(){
+	            	$("#div1").load("havaji/fundamentali/fundamentali_3.xml");
+				});
+				$("#btn4").click(function(){
+	            	$("#div1").load("havaji/fundamentali/fundamentali_4.xml");
+				});
+				$("#btn5").click(function(){
+	            	$("#div1").load("havaji/fundamentali/fundamentali_5.xml");
+				});
+				$("#btn6").click(function(){
+	            	$("#div1").load("havaji/fundamentali/questiono.xml");
+				});
+			});
+		</script>
+		<script>
+			$('.ui.sticky')
+				.sticky({
+					context: '#tableofcontent'
+					pushing: true
+				})
+			;
+		</script>
+	</head>
+    <body>
+		<div id="div1">
+			<div class="ui fixed blue seven item menu">
+				<a class="item" href="en.html">
+					<i class="white home icon"></i> Home
+				</a>
+				<a class="item" href="whatisido.html">
+					<i class="white help icon"></i> What is Ido?
+				</a>
+				<div class="ui pointing dropdown link item">
+					<i class="white heart icon"></i> Learn Ido!<i class="white dropdown icon"></i>
+					<div class="menu">
+						<a href="fundamentali.html" class="item active">Fundamentali</a>
+						<a href="quaesasica.html" class="item">Qua esas ica?</a>
+						<div class="item">La numbri</div>
+						<div class="item">Simpla frazi</div>
+						<div class="item">Familio</div>
+						<div class="item">Animali</div>
+						<div class="item">Kolori</div>
+						<div class="item">Frazi</div>
+						<div class="item">Questioni</div>
+						<div class="item">Che la kafeerio</div>
+						<div class="item">Che la banko</div>
+					</div>
+				</div>
+				<div class="ui pointing dropdown link item">
+					<i class="white film icon"></i> Media<i class="white dropdown icon"></i>
+					<div class="menu">
+						<div class="item">Videos</div>
+						<div class="item">Music</div>
+						<div class="item">Games</div>
+						<div class="item">Poems</div>
+						<div class="item">Books</div>
+						<div class="item">Other</div>
+					</div>
+				</div>
+				<div class="ui pointing dropdown link item">
+					<i class="white translate icon"></i> Language<i class="white dropdown icon"></i>
+					<div class="menu">
+						<div class="item"><i class="gb flag"></i> English</div>
+						<div class="item"><i class="eu flag"></i> Ido</div>
+						<div class="item"><i class="se flag"></i> Swedish</div>
+					</div>
+				</div>
+				<a class="item" href="https://quitter.no/group/lernezido">
+					<i class="white comment icon"></i> GNU Social
+				</a>
+				<a class="item" href="aboutthesite.html">
+					<i class="white info icon"></i> About the site
+				</a>
+			</div>
+			<br><br><br><br>
+			<div class="ui container">
+				<div class="ui stacked segment">
+					<div class="ui breadcrumb">
+						<a class="section" href="lessons.html">Lessons</a>
+						<i class="right chevron icon divider"></i>
+						<div class="active section">Fundamentali</div>
+					</div>
+					<div class="ui two column grid">
+						<div class="column" style="width: 285px;">
+							<div class="ui vertical text menu">
+								<div class="item"><div class="header">In this course:</div></div>
+								<div class="menu">
+									<div class="item"><p>L'alfabeto</p></div>
+									<div class="item"><p>La pronuncado</p></div>
+									<div class="item"><p>La numbri</p></div>
+									<div class="item"><p>Ordinara frazi</p></div>
+									<div class="item"><p>Exameno</p></div>
+								</div>
+							</div>
+						</div>
+						<div class="column">
+							<center><h3>Difficulty:</h3>
+							<div class="ui star rating">
+								<i class="icon"></i><i class="icon"></i><i class="icon"></i><i class="icon"></i><i class="icon"></i>
+							</div>
+							<p>(Super easy)</p></center>
+							<br>
+							<center><a class="ui button" id="btn1"><i class="play icon"></i> Start the first lesson!</a></center>
+							<br>
+							<center><div class="ui mini buttons">
+								<a class="ui labeled icon disabled button">
+									<i class="left arrow icon"></i>
+									<p>Previous lesson</p>
+								</a>
+								<a class="ui right labeled icon button" href="proreapra.html">
+									<i class="right arrow icon"></i>
+									<p>Next lesson</p>
+								</a>
+							</div></center>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

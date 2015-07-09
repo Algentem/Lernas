@@ -1,0 +1,185 @@
+<div class="ui container">
+	<div class="ui blue breadcrumb">
+		<a href="lessons.html" class="section">Lessons</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" href="fundamentali.html">Fundamentali</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_2.xml');">L'alfabeto</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');">La pronuncado</a>
+		<i class="right chevron icon divider"></i>
+		<div class="active section">La numbri</div>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');">Ordinara frazi</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');">Exameno</a>
+	</div>
+	<br>
+	<h10>La numbri (The numbers)</h10>
+	<div class="ui fitted divider"></div>
+	<p>Idos numeral system is super simple! It was designed to be able to be put together easy, with out the chance to mess up! When you start pronouncing bigger numbers (up in the thousands, millions) you will notice that it all goes with a good flow, and there is no rocks to fall over! Now, because of that; they may seem short, but when you start using them you will notice how easy it is to count in Ido!</p>
+	<table class="ui table">
+		<tbody>
+			<thead>
+				<tr>
+					<th>Cardinal</th>
+					<th>Ido</th>
+					<th>English</th>
+					<th>Audio</th>
+				</tr>
+			</thead>
+			<tr>
+				<td><p>1</p></td>
+				<td><p>un</p></td>
+				<td><p>one</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>2</p></td>
+				<td><p>du</p></td>
+				<td><p>two</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>3</p></td>
+				<td><p>tri</p></td>
+				<td><p>three</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>4</p></td>
+				<td><p>quar</p></td>
+				<td><p>four</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>5</p></td>
+				<td><p>kin</p></td>
+				<td><p>five</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>6</p></td>
+				<td><p>sis</p></td>
+				<td><p>six</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>7</p></td>
+				<td><p>sep</p></td>
+				<td><p>seven</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>8</p></td>
+				<td><p>ok</p></td>
+				<td><p>eight</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>9</p></td>
+				<td><p>non</p></td>
+				<td><p>nine</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>10</p></td>
+				<td><p>dek</p></td>
+				<td><p>ten</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Here is how to create long numbers in Ido, and how easy it is!</p>
+	<table class="ui table">
+		<tbody>
+			<thead>
+				<tr>
+					<th>Cardinal</th>
+					<th>Ido</th>
+					<th>English</th>
+					<th>Audio</th>
+				</tr>
+			</thead>
+			<tr>
+				<td><p>100</p></td>
+				<td><p>cent</p></td>
+				<td><p>hundred</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>1,000</p></td>
+				<td><p>mil</p></td>
+				<td><p>thousand</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>1,000,000</p></td>
+				<td><p>miliono</p></td>
+				<td><p>million</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>1,000,000,000</p></td>
+				<td><p>triliono</p></td>
+				<td><p>billion</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>1,000,000,000,000</p></td>
+				<td><p>biliono</p></td>
+				<td><p>trillion</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+		</tbody>
+	</table>
+	<p>To learn to create numbers in Ido, you must first get familiar with two new interfixes: "a" and "e"! These can not be seen elswhere in the language, and you should not mix them up with "a" and "e" which means "to" and "and"! These "a" and "e" represent "multiplied by" and "plus"! So, for example: if I would like to say fourty six (46), I will start with the beginning, with the biggest number; "4", now in this example, we don't want a simple "4"!, we need it ten time bigger... what do we do? I'll tell you: we take quar (4), add the "a" I told you about earlier, and attach "dek" (ten) after these two! Then we have "quaradek"! "quaradek" means "40", so almost there; we just need a "6"! Then what we do; is that we take the quaradek, and the "e" from earlier, and attach "sis" (6) after and get quaradekesis! Now, in Ido we attach "-" before and after every "e" (but never the "a"s!) and get quaradek-e-sis! All done!</p>
+	<table class="ui table">
+		<tbody>
+			<tr>
+				<td><p>quar</p></td>
+				<td><p>a</p></td>
+				<td><p>dek</p></td>
+				<td><p>e</p></td>
+				<td><p>sis</p></td>
+				<td><p>quaradek-e-sis</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>4</p></td>
+				<td><p>multiplied by</p></td>
+				<td><p>10</p></td>
+				<td><p>plus</p></td>
+				<td><p>6</p></td>
+				<td><p>fourty six</p></td>
+				<td> </td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Now let's attack a bigger number! 3,562,947:</p>
+	<table class="ui very basic table">
+		<tbody>
+			<tr>
+				<td><center><p>triamilioni-e-kinacent-e-sisadek-e-du-e-nonacent-e-quaradek-e-sep</p></center></td>
+			</tr>
+			<tr>
+				<td><center><p>three million five hundred sixty two thousand nine hundred fourty seven</p></center></td>
+			</tr>
+			<tr>
+				<td><center><div class="ui blue mini button"><i class="white sound icon"></i></div></center></td>
+			</tr>
+		</tbody>
+	</table>
+	<p>Now I recommend that you sit down about 10 minutes, and write down different numbers, big and small, in a note book, and train this system! It shouldn't take longer than a couple of minutes, and it will be there; and after, you will notice that you start counting in Ido, for it's simplicity!</p>
+	<div class="ui fluid buttons">
+		<a class="ui blue animated fade button" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');" onClick="$('#progreso').progress({percent: 40});">
+			<div class="visible content"><i class="white icon arrow left"></i></div>
+			<div class="hidden content">La pronuncado</div>
+		</a>
+		<div class="ui orange button" data-content="To recive the most amount of...">Helpanto</div>
+		<a class="ui blue animated fade button" tabindex="0" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');" onClick="$('#progreso').progress({percent: 80});">
+			<div class="visible content"><i class="white icon arrow right"></i></div>
+			<div class="hidden content">Ordinara frazi</div>
+		</a>
+	</div>
+</div>

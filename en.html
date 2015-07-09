@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>lern.as - ube onu lernas Ido!</title>
+        <meta name="description" content="HODIE.IO">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="Semantic-UI-master/dist/semantic.min.js"></script>
+        <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css">
+        <link rel="shortcut icon" href="havaji/imaji/jenkosteloinverted.png">
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript">
+			var textarray = [
+				"If you want to speed up you'r learning, recommend we that you change the sites language to Ido!",
+				"If you need extra help with something; head over to the Ido group in GNU Social and ask!",
+				"In poetic Ido, you can write words without the present tense verbal ending 'as', and the adjective ending 'a'! So instead of saying: Im walking to the big house, (Me iras a la granda domo) you can say: Me ir a la grand domo. You can even mash 'a' and 'la' together (outside poetic we migh only do so if the preciding word starts with a vowel!) and get: Me ir al grand domo. You can then even start practising the accusative (higly optional!) The accusatives are unessesary and hard to learn, but if you are in for poetry, you should give them a go! In the end; we might get a meaning like this: Domon grand me ir al!",
+				"Remember that Ido has total gender neutrality! lektanto - reader, lektantulo - a male reader, lektantino - a female reader! puero - kid, puerulo - boy, puerino - girl! bovo - cow/bull, bovulo - bull, bovino - cow... etc..."    // No comma after last entry
+			];
+			function RndText() {
+				var rannum= Math.floor(Math.random()*textarray.length);
+				document.getElementById('quicktip').innerHTML=textarray[rannum];
+			}
+			onload = function() { RndText(); }
+		</script>
+    </head>
+    <body>
+		<div class="ui fixed blue seven item menu">
+			<a class="item active" href="en.html">
+				<i class="white home icon"></i> Home
+			</a>
+			<a class="item" href="whatisido.html">
+				<i class="white help icon"></i> What is Ido?
+			</a>
+			<div class="ui pointing dropdown link item">
+				<i class="white heart icon"></i> Learn Ido!<i class="white dropdown icon"></i>
+				<div class="menu">
+					<a href="lessons.html" class="item">Lessons selector</a>
+					<div class="divider"></div>
+					<a href="fundamentali.html" class="item">Fundamentali</a>
+					<a href="quaesasica.html" class="item">Qua esas ica?</a>
+					<div class="item">Simpla frazi</div>
+					<div class="item">Familio</div>
+					<div class="item">Animali</div>
+					<div class="item">Kolori</div>
+					<div class="item">Frazi</div>
+					<div class="item">Questioni</div>
+					<div class="item">Che la kafeerio</div>
+					<div class="item">Che la banko</div>
+				</div>
+			</div>
+			<div class="ui pointing dropdown link item">
+				<i class="white film icon"></i> Media<i class="white dropdown icon"></i>
+				<div class="menu">
+					<div class="item">Videos</div>
+					<div class="item">Music</div>
+					<div class="item">Games</div>
+					<div class="item">Poems</div>
+					<div class="item">Books</div>
+					<div class="item">Other</div>
+				</div>
+			</div>
+			<div class="ui pointing dropdown link item">
+				<i class="white translate icon"></i> Language<i class="white dropdown icon"></i>
+				<div class="menu">
+					<div class="item"><i class="gb flag"></i> English</div>
+					<div class="item"><i class="eu flag"></i> Ido</div>
+					<div class="item"><i class="se flag"></i> Swedish</div>
+				</div>
+			</div>
+			<a class="item" href="https://quitter.no/group/lernezido">
+				<i class="white comment icon"></i> GNU Social
+			</a>
+			<a class="item" href="aboutthesite.html">
+				<i class="white info icon"></i> About the site
+			</a>
+		</div>
+		<br><br>
+		<div class="ui blue inverted vertical masthead center aligned segment">
+			<div class="ui container">
+				<div class="jenkostelo">
+					<a href="jenkostelo.html"><img src="havaji/imaji/jenkostelo.png" alt="HODIE.io" class="img-rounded" style="width:100px;height:100px"></a>
+				</div>
+				<div class="content">
+					<h1 class="ui inverted header">Hello and welcome to lern.as!</h1>
+				</div>
+				<br>
+				<div class="ui fitted divider"></div>
+				<br>
+				<div class="sub header"><p>A free site where you can learn the international auxiliary language Ido.</p></div>
+			</div>
+		</div>
+		<br><br>
+        <div class="ui container">
+			<div class="ui two column grid">
+				<div class="column">
+					<div class="ui blue stacked segment">
+						<h1 class="ui blue header">What does this website provide?:</h1>
+						<div class="ui fitted divider"></div>
+						<p>Here; you can learn the international language Ido! The courses on this site will provide you with basic <i>and</i> advanced courses, and teach you how to use them in different situations in different locations!</p>
+					</div>
+				</div>
+				<div class="column">
+					<div class="ui blue stacked segment">
+						<h1 class="ui blue header">Quick tip</h1>
+						<div class="ui fitted divider"></div>
+						<p><div id="quicktip"></div></p>
+						<center><button class="ui blue fluid basic button" onClick="history.go(0)">Whould you like another quick tip?</button></center>
+					</div>
+				</div>
+			</div>
+			<div class="ui blue stacked segment">
+				<h1 class="ui blue header">You'we desided to learn Ido?</h1>
+				<div class="ui fitted divider"></div>
+				<p>Are you ready to start your first lesson in Ido? Then jump to:</p>
+				<div class="ui segment">
+				<div class="ui two column middle aligned very relaxed stackable grid">
+				  <div class="column">
+					<center><p>The first and most basic course.</p>
+					<a href="fundamentali.html" class="ui blue fluid basic button"><p>Fundamentali</p></a></center>
+				  </div>
+				  <div class="ui vertical divider">
+					Or
+				  </div>
+				  <div class="center aligned column">
+					<center><p>Check out all of the different lessons!</p>
+					<a class="ui blue fluid basic button" href="lessons.html"><p>Lesson overview</p></a></center>
+				  </div>
+				</div>
+			</div>
+			<p>the first lesson! If you aleardy have experience in Ido, then you can click on the "Classroom", what level you dezire!</p>
+			</div>
+			<div class="ui two column grid">
+				<div class="column">
+					<center><a class="ui blue fluid button" href="mailen.html">Send me an e-mail!</a></center>
+				</div>
+				<div class="column">
+					<center><div class="ui fluid icon input">
+						<input type="text" placeholder="Look up in the dictionary!">
+						<i class="blue inverted circular search link icon"></i></center>
+					</div>
+				</div>
+			</div>
+        </div>
+    </body>
+</html>

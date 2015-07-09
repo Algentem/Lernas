@@ -1,0 +1,109 @@
+<script>
+	$(document).ready(function(){
+		$("#modal").click(function(){
+			$('.ui.modal')
+			.modal({
+				blurring: true
+			})
+			.modal('show')
+		});
+		$("#modalclose").click(function(){
+			$('.ui.modal')
+			.modal({
+				blurring: true
+			})
+			.modal('hide')
+		});
+	});
+</script>
+<div class="ui container">
+	<div class="ui blue breadcrumb">
+		<a href="lessons.html" class="section">Lessons</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" href="proreapra.html">Pronuncado- e letkado-praktiko</a>
+		<i class="right chevron icon divider"></i>
+		<div class="active section">Praktiko</div>
+		<i class="right chevron icon divider"></i>
+		<div class="section">Exameno</div>
+	</div>
+	<br>
+	<h10>Praktiko</h10>
+	<div class="ui fitted divider"></div>
+	<p>In the <b>Helpanto</b> you have the full alphabet and pronunciation for convenient help!</p>
+	<div class="ui two column grid">
+		<div class="column">
+			<center><p><b>Patro nia - The Lords Prayer</b></p></center>
+			<table class="ui very basic table">
+				<tbody>
+					<thead>
+						<tr>
+							<th><p>Ido</p></th>
+							<th><p>English</p></th>
+						</tr>
+					</thead>
+					<tr>
+						<td><p>Patro nia qua esas en la cielo,<br>Vua nomo esez santigata;<br>Vua regno arivez;<br>Vua volo esez obediata,<br>Quale en la cielo, tale sur la tero.<br>Nia singladi’ panon donez a ni cadie,<br>E remisez a ni nia debaji,<br>Quale anke ni remisas a nia debanti,<br>E ne duktez ni aden la tenteso,<br>Ma liberigez ni del malajo.</p></td>
+						<td><p>Our Father, who is in heaven,<br>hallowed be your name.<br>Your kingdom come,<br>your will be done,<br>on earth as it is in heaven.<br>Give us this day our daily bread,<br>and forgive us our debts,<br>as we also have forgiven our debtors.<br>And lead us not into temptation,<br>but deliver us from evil.</p></td>
+					</tr>
+				</tbody>
+			</table>
+			<center><a class="ui blue mini button"><i class="sound icon"></i></a></center>
+			<center><p><b>Patro nia - The Lords Prayer</b></p></center>
+			<table class="ui very basic table">
+				<tbody>
+					<thead>
+						<tr>
+							<th><p>Ido</p></th>
+							<th><p>English</p></th>
+						</tr>
+					</thead>
+					<tr>
+						<td><p>Patro nia qua esas en la cielo,<br>Vua nomo esez santigata;<br>Vua regno arivez;<br>Vua volo esez obediata,<br>Quale en la cielo, tale sur la tero.<br>Nia singladi’ panon donez a ni cadie,<br>E remisez a ni nia debaji,<br>Quale anke ni remisas a nia debanti,<br>E ne duktez ni aden la tenteso,<br>Ma liberigez ni del malajo.</p></td>
+						<td><p>Our Father, who is in heaven,<br>hallowed be your name.<br>Your kingdom come,<br>your will be done,<br>on earth as it is in heaven.<br>Give us this day our daily bread,<br>and forgive us our debts,<br>as we also have forgiven our debtors.<br>And lead us not into temptation,<br>but deliver us from evil.</p></td>
+					</tr>
+				</tbody>
+			</table>
+			<center><a class="ui blue mini button"><i class="sound icon"></i></a></center>
+		</div>
+		<div class="column">
+			<center><p><b>Universala deklaro pri homala yuri - Universal Declaration of Human Rights</b></p></center>
+			<table class="ui very basic table">
+				<tbody>
+					<thead>
+						<tr>
+							<th><p>Ido</p></th>
+							<th><p>English</p></th>
+						</tr>
+					</thead>
+					<tr>
+						<td><p>Omna homi naskas libera ed egala relate digneso e yuri. Li esas dotita per raciono e koncienco e devas agar vers l'una l'altra en spirito di frateso.</p></td>
+						<td><p>All human beings are born free and equal in dignity and rights. They are endowed with reason and conscience and should act towards one another in a spirit of brotherhood. </p></td>
+					</tr>
+				</tbody>
+			</table>
+			<center><a class="ui blue mini button"><i class="sound icon"></i></a></center>
+			<center><p><b>Patro nia - The Lords Prayer</b></p></center>
+			<table class="ui very basic table">
+				<tbody>
+					<thead>
+						<tr>
+							<th><p>Ido</p></th>
+							<th><p>English</p></th>
+						</tr>
+					</thead>
+					<tr>
+						<td><p>Patro nia qua esas en la cielo,<br>Vua nomo esez santigata;<br>Vua regno arivez;<br>Vua volo esez obediata,<br>Quale en la cielo, tale sur la tero.<br>Nia singladi’ panon donez a ni cadie,<br>E remisez a ni nia debaji,<br>Quale anke ni remisas a nia debanti,<br>E ne duktez ni aden la tenteso,<br>Ma liberigez ni del malajo.</p></td>
+						<td><p>Our Father, who is in heaven,<br>hallowed be your name.<br>Your kingdom come,<br>your will be done,<br>on earth as it is in heaven.<br>Give us this day our daily bread,<br>and forgive us our debts,<br>as we also have forgiven our debtors.<br>And lead us not into temptation,<br>but deliver us from evil.</p></td>
+					</tr>
+				</tbody>
+			</table>
+			<center><a class="ui blue mini button"><i class="sound icon"></i></a></center>
+		</div>
+	</div>
+	<br>
+	<div class="ui fluid buttons">
+		<a class="ui blue disabled button"><i class="white icon arrow left"></i></a>
+		<div class="ui orange button" data-content="To recive the most amount of..." id="modal">Helpanto</div>
+		<a class="ui blue animated fade button" onclick="$('#div1').load('havaji/proreapra/proreapra_3.xml');"><i class="white icon arrow right"></i></a>
+	</div>
+</div>

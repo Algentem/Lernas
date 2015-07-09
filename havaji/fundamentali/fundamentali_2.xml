@@ -1,0 +1,332 @@
+<div class="ui container">
+	<div class="ui blue breadcrumb">
+		<a href="lessons.html" class="section">Lessons</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" href="fundamentali.html">Fundamentali</a>
+		<i class="right chevron icon divider"></i>
+		<div class="active section">L'alfabeto</div>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');">La pronuncado</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');">La numbri</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');">Ordinara frazi</a>
+		<i class="right chevron icon divider"></i>
+		<a class="section" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');">Exameno</a>
+	</div>
+	<br>
+	<h10>L'alfabeto (The alphabet)</h10>
+	<div class="ui fitted divider"></div>
+	<p>The alphabet is easy, flexible and contains the standard latin alphabet! In fact, Idos alphabet is exacly the same as the English 26 lettered alphabet! Here is the pronounciation of eatch letter:</p>
+	<table class="ui definition striped table">
+		<tbody>
+			<tr>
+				<td>Ido</td>
+				<td>A</td>
+				<td>B</td>
+				<td>C</td>
+				<td>D</td>
+				<td>E</td>
+				<td>F</td>
+				<td>G</td>
+				<td>H</td>
+				<td>I</td>
+				<td>J</td>
+				<td>K</td>
+				<td>L</td>
+				<td>M</td>
+			</tr>
+			<tr>
+				<td>IPA</td>
+				<td>a</td>
+				<td>b</td>
+				<td>ts</td>
+				<td>d</td>
+				<td>e~ɛ</td>
+				<td>f</td>
+				<td>g</td>
+				<td>h</td>
+				<td>i</td>
+				<td>ʒ</td>
+				<td>k</td>
+				<td>l</td>
+				<td>m</td>
+			</tr>
+			<tr>
+				<td>Ido</td>
+				<td>N</td>
+				<td>O</td>
+				<td>P</td>
+				<td>Q</td>
+				<td>R</td>
+				<td>S</td>
+				<td>T</td>
+				<td>U</td>
+				<td>V</td>
+				<td>W</td>
+				<td>X</td>
+				<td>Y</td>
+				<td>Z</td>
+			</tr>
+			<tr>
+				<td>IPA</td>
+				<td>n</td>
+				<td>o~ɔ</td>
+				<td>p</td>
+				<td>kw</td>
+				<td>ɾ~r</td>
+				<td>s</td>
+				<td>t</td>
+				<td>u</td>
+				<td>v</td>
+				<td>w</td>
+				<td>ks</td>
+				<td>j</td>
+				<td>z</td>
+			</tr>
+		</tbody>
+	</table>
+	<center><table class="ui collapsing striped table">
+		<tbody>
+			<thead>
+				<tr>
+					<th><p><center>Ido</center></p></th>
+					<th><p><center>(Standard) English</center></p></th>
+					<th><p><center>IPA</center></p></th>
+					<th><p><center>Note</center></p></th>
+					<th><p><center>Audio</center></p></th>
+				</tr>
+			</thead>
+			<tr>
+				<td><p>A</p></td>
+				<td><p><i>not present</i></p></td>
+				<td><p>a</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>B</p></td>
+				<td><p>as in <u>b</u>ake</p></td>
+				<td><p>b</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>C</p></td>
+				<td><p>as <u>ts</u> in ha<u>ts</u></p></td>
+				<td><p>ts</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>D</p></td>
+				<td><p>as in <u>d</u>ragon</p></td>
+				<td><p>d</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>E</p></td>
+				<td><p><i>not present</i>,<br>acceptd to use b<u>e</u>d (UK and US English),<br>f<u>a</u>t (most other dialects of English)</p></td>
+				<td><p>e~ɛ</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>F</p></td>
+				<td><p>as in <u>f</u>ire</p></td>
+				<td><p>f</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>G</p></td>
+				<td><p>as in <u>g</u>et</p></td>
+				<td><p>g</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>H</p></td>
+				<td><p>as in <u>h</u>at (never silent!)</p></td>
+				<td><p>h</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>I</p></td>
+				<td><p>as <u>ee</u> in fr<u>ee</u></p></td>
+				<td><p>i</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>J</p></td>
+				<td><p>as <u>si</u> in vi<u>si</u>on</p></td>
+				<td><p>ʒ</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>K</p></td>
+				<td><p>as in <u>k</u>ing and <u>c</u>an</p></td>
+				<td><p>k</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>L</p></td>
+				<td><p>as in <u>l</u>amp</p></td>
+				<td><p>l</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>M</p></td>
+				<td><p>as in <u>m</u>eter</p></td>
+				<td><p>m</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>N</p></td>
+				<td><p>as in <u>n</u>ight</p></td>
+				<td><p>n</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>O</p></td>
+				<td><p><i>not present</i>,<br>accepted to use ɔ; also <i>not present</i></p></td>
+				<td><p>o~ɔ</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>P</p></td>
+				<td><p>as in <u>p</u>ark</p></td>
+				<td><p>p</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>Q</p></td>
+				<td><p>as in <u>qu</u>ality</p></td>
+				<td><p>kw</p></td>
+				<td><p>(only found in <i>qu</i>, <u>see below</u>)</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>R</p></td>
+				<td><p><i>not present</i>,<br>accepted to use r; also <i>not present</i></p></td>
+				<td><p>ɾ~r</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>S</p></td>
+				<td><p>as in <u>s</u>uper</p></td>
+				<td><p>s</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>T</p></td>
+				<td><p>as in <u>t</u>rain</p></td>
+				<td><p>t</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>U</p></td>
+				<td><p>as on m<u>oo</u>n</p></td>
+				<td><p>u</p></td>
+				<td>u is <u>always</u> pronounced in front<br>or behind another vowel as <u>w</u></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>V</p></td>
+				<td><p>as in <u>v</u>acation</p></td>
+				<td><p>v</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>W</p></td>
+				<td><p>as in <u>w</u>olf</p></td>
+				<td><p>w</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>X</p></td>
+				<td><p>as in e<u>x</u>pert</p></td>
+				<td><p>ks</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>Y</p></td>
+				<td><p>as in <u>y</u>ear</p></td>
+				<td><p>j</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>Z</p></td>
+				<td><p>as in si<u>z</u>e</p></td>
+				<td><p>z</p></td>
+				<td> </td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+		</tbody>
+	</table></center>
+	<br>
+	<center><p>Ido also has 4 digraphs, again found in English:</p></center>
+	<center><table class="ui collapsing striped table">
+		<tbody>
+			<thead>
+				<tr>
+					<th><p><center>Ido</center></p></th>
+					<th><p><center>(Standard) English</center></p></th>
+					<th><p><center>IPA</center></p></th>
+					<th><p><center>Audio</center><p></th>
+				</tr>
+			</thead>
+			<tr>
+				<td><p>ch</p></td>
+				<td><p>as in <u>ch</u>icken</p></td>
+				<td>tʃ</td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>gu</p></td>
+				<td><p>as in lan<u>gu</u>age</p></td>
+				<td>kw</td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>qu</p></td>
+				<td><p>as in <u>qu</u>ick</p></td>
+				<td>gw</td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>sh</p></td>
+				<td><p>as in <u>sh</u>irt</p></td>
+				<td>ʃ</td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+		</tbody>
+	</table></center>
+	<center><p>Note that <i>q</i> is <u>only</u> found in the diagraph <i>qu</i>!</p></center>
+	<br>
+	<div class="ui fluid buttons">
+		<a class="ui blue disabled button"><i class="white icon arrow left"></i></a>
+		<div class="ui orange button" data-content="To recive the most amount of...">Helpanto</div>
+		<a class="ui blue animated fade button" tabindex="0" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');" onclick="$('#progreso').progress({percent: 20});">
+			<div class="visible content"><i class="white icon arrow right"></i></div>
+			<div class="hidden content">La pronuncado</div>
+		</a>
+	</div>
+</div>

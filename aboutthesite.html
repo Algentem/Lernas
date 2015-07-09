@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hodie, the free site to learn Ido!</title>
+        <meta name="description" content="HODIE.IO">
+        <link rel="stylesheet" href="main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="Semantic-UI-master/dist/semantic.min.js"></script>
+        <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css">
+        <link rel="shortcut icon" href="havaji/imaji/hodielogo.png">
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript">
+			var textarray = [
+			 "If you want to speed up you'r learning, recommend we that you change the sites language to Ido!",
+			 "If you need extra help with something; head over to the Ido group in GNU Social and ask!",
+			 "In poetic Ido, you can write words without the present tense verbal ending 'as', and the adjective ending 'a'! So instead of saying: Im walking to the big house, (Me iras a la granda domo) you can say: Me ir a la grand domo. You can even mash 'a' and 'la' together (outside poetic we migh only do so if the preciding word starts with a vowel!) and get: Me ir al grand domo. You can then even start practising the accusative (higly optional!) The accusatives are unessesary and hard to learn, but if you are in for poetry, you should give them a go! In the end; we might get a meaning like this: Domon grand me ir al!",
+			 "Quale tu standas?"    // No comma after last entry
+			];
+			function RndText() {
+			  var rannum= Math.floor(Math.random()*textarray.length);
+			  document.getElementById('quicktip').innerHTML=textarray[rannum];
+			}
+			onload = function() { RndText(); }
+		</script>
+    </head>
+    <body>
+		<div class="ui fixed pointing blue seven item menu">
+			<a class="item" href="en.html">
+				<i class="white home icon"></i> Home
+			</a>
+			<a class="item" href="whatisido.html">
+				<i class="white help icon"></i> What is Ido?
+			</a>
+			<div class="ui pointing dropdown link item">
+				<i class="white heart icon"></i> Learn Ido!<i class="white dropdown icon"></i>
+				<div class="menu">
+					<div class="item">L'alfabeto</div>
+					<a href="quaesasica.html" class="item">Qua esas ica?</a>
+					<div class="item">La numbri</div>
+					<div class="item">Simpla frazi</div>
+					<div class="item">Familio</div>
+					<div class="item">Animali</div>
+					<div class="item">Kolori</div>
+					<div class="item">Frazi</div>
+					<div class="item">Questioni</div>
+					<div class="item">Che la kafeerio</div>
+					<div class="item">Che la banko</div>
+				</div>
+			</div>
+			<div class="ui pointing dropdown link item">
+				<i class="white film icon"></i> Media<i class="white dropdown icon"></i>
+				<div class="menu">
+					<div class="item">Videos</div>
+					<div class="item">Music</div>
+					<div class="item">Games</div>
+					<div class="item">Poems</div>
+					<div class="item">Books</div>
+					<div class="item">Other</div>
+				</div>
+			</div>
+			<div class="ui pointing dropdown link item">
+				<i class="white translate icon"></i> Language<i class="white dropdown icon"></i>
+				<div class="menu">
+					<div class="item"><i class="gb flag"></i> English</div>
+					<div class="item"><i class="eu flag"></i> Ido</div>
+					<div class="item"><i class="se flag"></i> Swedish</div>
+				</div>
+			</div>
+			<a class="item" href="https://quitter.no/group/lernezido">
+				<i class="white comment icon"></i> GNU Social
+			</a>
+			<a class="item active" href="aboutthesite.html">
+				<i class="white info icon"></i> About the site
+			</a>
+		</div>
+		<br><br><br><br>
+		<div class="ui container">
+			<div class="ui blue piled segment">
+				<h10>About me</h10>
+				<div class="ui fitted divider"></div>
+				<p>First of all, I would like to thank you for using this site! I love Ido, and I hope you do to! My name is William Johnsson, I grew up in a multi cultured family, with parents and grandparents from vastly different locations. Sadly, growing up, I only learned Swedish (where I was born)! I would love to have learned Hungarian, but I wasn't thought, and Finnish isn't much easier, etc. Around 2013-14 I discovered International Auxiliary languages, and fell in love. I have been doing some amateur conlanging before, but I decided to start again, and now try to construct Auxiliary languages. I knew from when I first desovered Auxiliary languages that Esperanto had a big community, and was told it was "good", but from my past experience in conlanging, I couldn't stand some parts of Esperanto. Some time went, and I discovered Ido! At first I was shy, shy it would be "too much" like Esperanto, and because of that I didn't give it a shot. A few months had gone by, maybe a year (in the beginning of 2015), and I finaly was ready to take a shot at Ido, and I'm not lying here; I fell in love with it at first glance... and I couldn't stop learning it (immediately did all the courses I could, and read all of the websites i found!)</p>
+				<h10>About my site</h10>
+				<div class="ui fitted divider"></div>
+				<p>About around april-mayo of 2015, I decided "to test out" to make a website about Ido, and learning it...</p>
+			</div>
+        </div>
+		<br>
+		<div class="ui two column grid">
+			<div class="column">
+				<center><a class="ui blue  button" href="mailen.html">Send me a mail!</a></center>
+			</div>
+			<div class="column">
+				<div class="ui search">
+					<center><div class="ui icon input">
+						<input class="prompt" type="text" placeholder="Look up in the dictionary!">
+						<i class="search icon"></i></center>
+					</div>
+				</div>
+			</div>
+		</div>
+    </body>
+</html>

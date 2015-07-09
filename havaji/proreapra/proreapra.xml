@@ -1,0 +1,15 @@
+<div class="ui container">
+	<br>
+	<h10>Welcome!</h10>
+	<div class="ui fitted divider"></div>
+	<p>Welcome to the Pronuncado- e letkado-praktiko! Here we'll go through some sentences both in audio and video, to help you with speaking, listening and speaking (Ido is super simple, so it wont take long!) Every step will have a backwars and a forwards button, so you can jump between if you need. To start, press start bellow, and we'll roll the first part of the fundamentals; the alphabet! Have fun! And oh, we also have a <b>Helpanto</b> button, that will hep you extra... if you need som extra tip <i class="blue icon smile"></i> (try pressing the one bellow!)</p>
+	<br>
+	<div class="ui fluid buttons">
+		<a class="ui green animated fade button" onclick="$('#div1').load('havaji/proreapra/proreapra_2.xml');">
+			<div class="visible content">Komencez!</div>
+			<div class="hidden content">Praktiko</div>
+		</a>
+		<div class="ui orange button" data-content="To recive the most amount of...">Helpanto</div>
+		<a class="ui red button" href="proreapra.html">Ekirar</a>
+	</div>
+</div>

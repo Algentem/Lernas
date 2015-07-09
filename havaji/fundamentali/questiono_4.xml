@@ -1,0 +1,76 @@
+<script>
+	function myFunction() {
+		var letter = document.getElementById("questiono1").value;
+		var text;
+		if (letter === "me nomesas ...") {
+			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else if (letter === "me nomesas") {
+			text = "<center><div class='ui green message'><p>Korekta! Ma vu obliviis la &quot; ...&quot;!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else {
+			text = "<center><div class='ui red message'><p>Ne korekta!</p></div></center>";
+		}
+			document.getElementById("text").innerHTML = text;
+		}
+</script>
+<script>
+	$(document).ready(function(){
+		$("#btn1").click(function(){
+			$('.ui.modal.4')
+			.modal({
+				blurring: true
+			})
+			.modal('show')
+		});
+		$("#modalclose").click(function(){
+			$('.ui.modal.4')
+			.modal({
+				blurring: true
+			})
+			.modal('hide')
+		});
+	});
+</script>
+<script>
+	$("#questiono1").keyup(function(event){
+		if(event.keyCode == 13){
+			$("#button").click();
+		}
+	});
+</script>
+<div class="ui container">
+	<div class="ui center aligned container">
+		<p>Write: <i>My name is ...</i> in Ido:</p>
+		<div class="ui input">
+			<input id="questiono1" type="text" class="prompt" placeholder="my name is ...">
+			<div class="results"></div>
+		</div>
+		<a class="ui blue button" onclick="myFunction()" id="button">Verifikar</a>
+	</div>
+	<div class="ui right aligned container">
+		<br>
+		<div id="text">
+			<center><div class="ui blue message"><p>Voluntez skribar vua divino!</p></div></center>
+		</div>
+		<br>
+	</div>
+	<center><a id="ready" class="ui green button" style="visibility:hidden" onclick="$('#div1').load('havaji/fundamentali/questiono_5.xml');"><p>Sequanta</p></a></center>
+	<br>
+	<center><div class="ui orange button" id="btn1"><p>Helpanto</p></div></center>
+</div>
+<div class="ui modal 4">
+	<div class="header">
+		<i class="idea icon"></i>
+		Helpanto:
+	</div>
+	<div class="content">
+		<div class="description">
+			<p>"me nomesas ..." is you answer!</p>
+			<p>me - I, me + <u>nom</u>ar - be named + esar - is, are, am! By adding "esar" on the end of nomar (replaceing the "ar"), makes it current! See the "Ordinara frazi" part of this course!</p>
+			</div>
+			<br>
+			<a class="ui green fluid button" id="modalclose"><i class="checkmark icon"></i></a>
+		</div>
+	</div>
+</div>
