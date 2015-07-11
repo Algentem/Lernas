@@ -2,11 +2,17 @@
 	function myFunction() {
 		var letter = document.getElementById("questiono1").value;
 		var text;
-		if (letter === "me nomesas ...") {
+		if (letter === "me nomesas Luigi") {
 			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
 			document.getElementById("ready").style.visibility = "visible"
-		} else if (letter === "me nomesas") {
-			text = "<center><div class='ui green message'><p>Korekta! Ma vu obliviis la &quot; ...&quot;!</p></div></center>";
+		} else if (letter === "Me nomesas Luigi") {
+			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else if (letter === "mea nomo esas Luigi") {
+			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
+			document.getElementById("ready").style.visibility = "visible"
+		} else if (letter === "Mea nomo esas Luigi") {
+			text = "<center><div class='ui green message'><p>Korekta!</p></div></center>";
 			document.getElementById("ready").style.visibility = "visible"
 		} else {
 			text = "<center><div class='ui red message'><p>Ne korekta!</p></div></center>";
@@ -41,9 +47,9 @@
 </script>
 <div class="ui container">
 	<div class="ui center aligned container">
-		<p>Write: <i>My name is ...</i> in Ido:</p>
+		<p>Write: <i>My name is Luigi</i> in Ido:</p>
 		<div class="ui input">
-			<input id="questiono1" type="text" class="prompt" placeholder="my name is ...">
+			<input id="questiono1" type="text" class="prompt" placeholder="my name is luigi">
 			<div class="results"></div>
 		</div>
 		<a class="ui blue button" onclick="myFunction()" id="button">Verifikar</a>
