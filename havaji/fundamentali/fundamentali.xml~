@@ -18,7 +18,7 @@
 </script>
 <div class="ui container">
 	<br>
-	<h1 style="font-family: Lobster Two">Welcome!</h1>
+	<h1>Welcome!</h1>
 	<div class="ui fitted divider"></div>
 	<p>Welcome to the fundamentals! Every step will have a backwars and a forwards button, so you can jump between if you need. To start, press start bellow, and we'll roll the first part of the fundamentals; the alphabet! Have fun! And oh, we also have a <b>Helpanto</b> button, that will hep you extra... if you need som extra tip <i class="blue icon smile"></i> (try pressing the one bellow!)</p>
 	<br>

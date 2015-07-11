@@ -104,9 +104,9 @@
 			</a>
 		</div>
         <div class="ui container" id="content">
-			<h1 style="color: #FFFFFF; text-align:center">LERN.AS</h1>
+			<h1 style="font-family: Lobster Two; font-size: 75px; color: #FFFFFF; text-align:center">LERN.AS</h1>
 			<div class="ui divider"></div>
-			<h1 style="color: #FFFFFF; text-align:center">Welcome to lern.as!</h1>
+			<h1 style="color: #FFFFFF; text-align:center">Welcome to <i>lern.as</i>!</h1>
 			<div class="ui piled segment">
 				<p>Lern.as is a free platform, where you can learn the international language Ido!</p>
 				<div class="ui blue button">Lessons</div>
@@ -118,65 +118,10 @@
 				<p style="color: grey; text-align: center">Image by nasa2explore: https://www.flickr.com/photos/nasa2explore/18145598416/</p>
 			</div>
 		</div>
-<<<<<<< HEAD
-		<br><br>
-        <div class="ui container">
-			<div class="ui two column grid">
-				<div class="column">
-					<div class="ui blue stacked segment">
-						<h1 class="ui blue header">What This Website Provides</h1>
-						<div class="ui fitted divider"></div>
-						<p>Here; you can learn the international language Ido! The courses on this site will provide you with basic <i>and</i> advanced courses, and teach you how to use them in different situations in different locations!</p>
-					</div>
-				</div>
-				<div class="column">
-					<div class="ui blue stacked segment">
-						<h1 class="ui blue header">Quick Tip</h1>
-						<div class="ui fitted divider"></div>
-						<p><div id="quicktip"></div></p>
-						<center><button class="ui blue fluid basic button" onClick="history.go(0)">Whould you like another quick tip?</button></center>
-					</div>
-				</div>
-			</div>
-			<div class="ui blue stacked segment">
-				<h1 class="ui blue header">Decided to Learn Ido?</h1>
-				<div class="ui fitted divider"></div>
-				<p>Are you ready to start your first lesson in Ido? Then jump to:</p>
-				<div class="ui segment">
-				<div class="ui two column middle aligned very relaxed stackable grid">
-				  <div class="column">
-					<center><p>The first and most basic course.</p>
-					<a href="fundamentali.html" class="ui blue fluid basic button"><p>Fundamentali</p></a></center>
-				  </div>
-				  <div class="ui vertical divider">
-					Or
-				  </div>
-				  <div class="center aligned column">
-					<center><p>Check out all of the different lessons!</p>
-					<a class="ui blue fluid basic button" href="lessons.html"><p>Lesson overview</p></a></center>
-				  </div>
-				</div>
-			</div>
-			<p>the first lesson! If you aleardy have experience in Ido, then you can click on the "Classroom", what level you dezire!</p>
-			</div>
-			<div class="ui two column grid">
-				<div class="column">
-					<center><a class="ui blue fluid button" href="mailen.html">Send me an e-mail!</a></center>
-				</div>
-				<div class="column">
-					<center><div class="ui fluid icon input">
-						<input type="text" placeholder="Look up in the dictionary!">
-						<i class="blue inverted circular search link icon"></i></center>
-					</div>
-				</div>
-			</div>
-        </div>
-=======
 		<div class="ui bottom fixed large blue inverted three item menu">
 			<a class="item" href="whatisido.html"><p>More information about Ido</p></a>
 			<a class="item" href="fundamentali.html"><p><b>Take your first course in Ido</b></p></a>
 			<a class="item" href="mailen.html"><p>Contact</p></a>
 		</div>
->>>>>>> pr/1
     </body>
 </html>

@@ -3,63 +3,68 @@
 		<div class="item"><div class="header">In this course:</div></div>
 		<div class="menu">
 			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_2.xml');"><p>L'alfabeto</p></a>
-			<div class="item active"><p>La pronuncado</p></div>
+			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');"><p>La pronuncado</p></a>
 			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');"><p>La numbri</p></a>
-			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');"><p>Ordinara frazi</p></a>
+			<div class="item active"><p>Ordinara frazi</p></div>
 			<a class="item" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');"><p>Exameno</p></a>
 			<div class="ui fitted divider"></div>
 			<a class="item" href="fundamentali.html"><p>Exit course</p></a>
 		</div>
 	</div>
 	<br>
-	<h1 style="font-family: Lobster Two">La pronuncado (The pronunciation)</h1>
+	<h10>Ordinara frazi (standard sentences)</h10>
 	<div class="ui fitted divider"></div>
-	<p>Don't worry if it hasn't sticked to you'r brain yet! We are now going to show a couple of sentences covering <u>every letter and sound in Ido</u>!</p>
+	<p>Let's practice some easy sentences in Ido! Now, again, don't worry if you can't remember everything!</p>
 	<table class="ui table">
 		<tbody>
 			<tr>
-				<td><p>Me iras a la merkato.</p></td>
-				<td><p>I am going to the market.</p></td>
+				<td><p>Saluto</p></td>
+				<td><p>Hello</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Ilu vidis zebro.</p></td>
-				<td><p>He saw a zebra.</p></td>
+				<td><p>Adio</p></td>
+				<td><p>Good bye</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Elu ya skriptas libri.</p></td>
-				<td><p>She do write books (for a living).</p></td>
+				<td><p>Bona jorno</p></td>
+				<td><p>Good day</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Me esas weldero.</p></td>
-				<td><p>I am a welder (only as hobby).</p></td>
+				<td><p>Bona nokto</p></td>
+				<td><p>Good night</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Ilu esas mea amiko.</p></td>
-				<td><p>He is my friend.</p></td>
+				<td><p>Me amas vu</p></td>
+				<td><p>I love you</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Elu vehas a skolo.</p></td>
-				<td><p>She is going to school (by vehicle).</p></td>
+				<td><p>Me nomesas ...</p></td>
+				<td><p>My name is ...</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Me prizas la kurteni.</p></td>
-				<td><p>I like the curtains.</p></td>
+				<td><p>Quale vu standas?</p></td>
+				<td><p>How do you do?</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Ilu questionas me.</p></td>
-				<td><p>He questions me.</p></td>
+				<td><p>Me standas bone, ka vu?</p></td>
+				<td><p>Im good, and you?</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 			<tr>
-				<td><p>Elu esas koquisto.</p></td>
-				<td><p>She is a cook (as profession).</p></td>
+				<td><p>Me evas ...</p></td>
+				<td><p>I'm ... (years old)</p></td>
+				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
+			</tr>
+			<tr>
+				<td><p>Danko</p></td>
+				<td><p>Thank you</p></td>
 				<td><div class="ui blue mini button"><i class="white sound icon"></i></div></td>
 			</tr>
 		</tbody>
@@ -67,12 +72,12 @@
 	<div class="ui fluid buttons">
 		<a class="ui blue animated fade button" onclick="$('#div1').load('havaji/fundamentali/fundamentali_2.xml');" onClick="$('#progreso').progress({percent: 20});">
 			<div class="visible content"><i class="white icon arrow left"></i></div>
-			<div class="hidden content">L'alfabeto</div>
+			<div class="hidden content">La numbri</div>
 		</a>
 		<div class="ui orange button" data-content="To recive the most amount of...">Helpanto</div>
-		<a class="ui blue animated fade button" tabindex="0" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');" onClick="$('#progreso').progress({percent: 60});">
+		<a class="ui yellow animated fade button" tabindex="0" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');" onClick="$('#progreso').progress({percent: 60});">
 			<div class="visible content"><i class="white icon arrow right"></i></div>
-			<div class="hidden content">La numbri</div>
+			<div class="hidden content">Exameno</div>
 		</a>
 	</div>
 </div>

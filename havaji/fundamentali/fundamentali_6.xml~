@@ -1,7 +1,7 @@
 <div class="ui green inverted vertical masthead center aligned segment">
 	<div class="ui container">
 		<br>
-		<h1 style="font-family: Lobster Two; color: #FFFFFF">Vu finita!</h1>
+		<h1 style="font-family: Lobster Two; color: #FFFFFF">Vu finita!</font></h1>
 		<div class="ui fitted divider"></div>
 		<p>Vu finita la (unesma) kurso "Fundamentali"! Multa gratulo!</p>
 	</div>
