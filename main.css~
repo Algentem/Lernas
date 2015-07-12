@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open Sans:400,700,400italic,700italic&subset=latin');
 @import url('https://fonts.googleapis.com/css?family=Lobster Two:400,700,400italic,700italic&subset=latin');
+@import url('https://fonts.googleapis.com/css?family=Philosopher:400,700,400italic,700italic&subset=latin');
 
 html {
     -webkit-font-smoothing: antialiased;
@@ -13,12 +14,8 @@ body {
     background-color: #ffffff;
 }
 
-h1 {
-	font-family: 'Lobster Two';
-}
-
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Lobster Two';
+	font-family: 'Lobster Two' 'Philosopher';
 	color: #222;
 	font-weight: 600;
 	line-height: 1.3em;
