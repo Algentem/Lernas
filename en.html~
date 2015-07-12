@@ -11,7 +11,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script type="text/javascript" src="Semantic-UI-master/dist/semantic.min.js"></script>
         <link rel="stylesheet" href="Semantic-UI-master/dist/semantic.min.css">
-        <link rel="shortcut icon" href="havaji/imaji/jenkostelo.png">
+        <link rel="shortcut icon" href="havaji/imaji/jenkosteloinverted.png">
 		<script type="text/javascript" src="main.js"></script>
 		<script type="text/javascript">
 			var textarray = [
@@ -43,6 +43,7 @@
 	<style>
 		body {
 			background-image: url("havaji/imaji/18145598416_ea9c362dde_o.jpg");
+			background-color: #2185D0;
 			background-size: cover;
 		}
 		h1 {
@@ -108,13 +109,14 @@
 			<div class="ui divider"></div>
 			<h1 style="color: #FFFFFF; font-family: Lobster Two; text-align:center">Bonvenez a <i>lern.as</i>!</h1>
 			<div class="ui piled segment">
-				<p><i>Lern.as</i> is a free platform, where you can learn the international language Ido!</p>
-				<div class="ui blue button">Lessons</div>
+				<h2 style="color: #DB2828; font-family: Lobster Two">What is <i>lern.as</i>?</h2>
+				<p><i>Lern.as</i> is a free platform, where you can learn the international language Ido! We offer a broad amount of lessons, from beginner to advanced, with text practice and audio for reference!</p>
+				<a class="ui red button" href="lessons.html">See the lessons</a>
 				<div class="ui divider"></div>
-				<p>Ido is a language, designed to be <u>international</u>, easy to learn and use, and 100% logical!</p>
-				<div class="ui blue button" style="text-align: center">About Ido</div>
+				<h2 style="color: #F2711C; font-family: Lobster Two">What is <i>Ido</i>?</h2>
+				<p>Ido is an beautiful auxiliary language, designed with good care for generations to serve as an <u>international</u> second language! Ido is easy to learn, simple to use, and fun to practice!</p>
+				<a class="ui orange button" href="whatisido.html">About Ido</a>
 				<div class="ui divider"></div>
-				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean hendrerit fringilla malesuada. Sed eget nisi gravida arcu congue finibus id in mauris.</p>
 				<p style="color: grey; text-align: center">Image by <a href="https://www.flickr.com/photos/nasa2explore/" style="color: grey">nasa2explore</a>: <a href="https://www.flickr.com/photos/nasa2explore/18145598416/" style="color: grey">https://www.flickr.com/photos/nasa2explore/18145598416/</a>, under <a href="https://creativecommons.org/licenses/by-nc/2.0/" style="color: grey">CC BY-NC 2.0</a></p>
 			</div>
 		</div>
