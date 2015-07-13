@@ -54,7 +54,7 @@
 		}
 	</style>
     <body>
-		<div class="ui fixed blue inverted seven item menu">
+		<div class="ui fixed grey seven item menu">
 			<a class="item active" href="en.html">
 				<i class="white home icon"></i> Home
 			</a>
@@ -68,7 +68,7 @@
 				<i class="white film icon"></i> Media
 			</a>
 			<div class="ui pointing dropdown link item">
-				<i class="white translate icon"></i> Language<i class="white dropdown icon"></i>
+				<i class="white translate icon"></i> Language
 				<div class="menu">
 					<div class="item"><i class="gb flag"></i> English</div>
 					<div class="item"><i class="eu flag"></i> Ido</div>
@@ -100,8 +100,9 @@
 					</div>
 				</div>
 			</div>
-		<div class="ui bottom fixed item menu">
-			<p style="color: grey; text-align: center; font-size: 12.5px">Image by <a href="https://www.flickr.com/photos/nasa2explore/" style="color: grey">nasa2explore</a>: <a href="https://www.flickr.com/photos/nasa2explore/18145598416/" style="color: grey">https://www.flickr.com/photos/nasa2explore/18145598416/</a>, under <a href="https://creativecommons.org/licenses/by-nc/2.0/" style="color: grey">CC BY-NC 2.0</a></p>
+			<div class="ui bottom fixed large grey item menu">
+				<a class="item" href="fundamentali.html"><p><b>Take your first course in Ido</b></p></a>
+			</div>
 		</div>
     </body>
 </html>

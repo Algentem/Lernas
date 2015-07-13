@@ -45,7 +45,7 @@
 	</head>
     <body>
 		<div id="div1">
-			<div class="ui fixed blue seven item menu">
+			<div class="ui fixed red inverted seven item menu">
 				<a class="item" href="en.html">
 					<i class="white home icon"></i> Home
 				</a>
@@ -98,7 +98,7 @@
 			<div class="ui container">
 				<div class="ui red stacked segment">
 					<div class="ui breadcrumb">
-						<a class="section" href="lessons.html">Lessons</a>
+						<a class="section" href="lessons.html" style="color: #DB2828">Lessons</a>
 						<i class="right chevron icon divider"></i>
 						<div class="active section">Fundamentali</div>
 					</div>

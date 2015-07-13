@@ -18,6 +18,13 @@
 			    window.scrollTo(window.scrollX, window.scrollY - 57);
 			});
 		</script>
+		<script>
+			$(document).ready(function(){
+				$("#btn1").click(function(){
+	            	$("#div1").load("havaji/whatisido/tabofconoff.xml");
+				});
+			});
+		</script>
     </head>
     <body>
 		<div class="ui fixed orange inverted seven item menu">
@@ -49,14 +56,17 @@
 			</a>
 		</div>
 		<br><br><br><br>
-		<div class="ui orange inverted fixed vertical menu" style="top: 75px">
-			<div class="item"><div class="header"><p>Table of Content:</p></div></div>
-			<div class="menu">
-				<a class="item" href="#What" style="color: #FFFFFF"><p>What is Ido?</p></a>
-				<a class="item" href="#History" style="color: #FFFFFF"><p>How did Ido come to be?</p></a>
-				<a class="item" href="#Neutrality" style="color: #FFFFFF"><p>Ido has total gender neutrality!</p></a>
-				<a class="item" href="#Logical" style="color: #FFFFFF"><p>Works perfect, like a well-crafted machine!</p></a>
-				<a class="item" href="#Vocabulary" style="color: #FFFFFF"><p>How and where does Ido get it's vocabulary?</p></a>
+		<div id="div1">
+			<div class="ui orange inverted fixed vertical menu" style="top: 75px">
+				<a id="btn1" class="ui orange mini button" style="color: #FFFFFF">Hide</a>
+				<div class="item"><div class="header"><p>Table of Content:</p></div></div>
+				<div class="menu">
+					<a class="item" href="#What" style="color: #FFFFFF"><p>What is Ido?</p></a>
+					<a class="item" href="#History" style="color: #FFFFFF"><p>How did Ido come to be?</p></a>
+					<a class="item" href="#Neutrality" style="color: #FFFFFF"><p>Ido has total gender neutrality!</p></a>
+					<a class="item" href="#Logical" style="color: #FFFFFF"><p>Works perfect, like a well-crafted machine!</p></a>
+					<a class="item" href="#Vocabulary" style="color: #FFFFFF"><p>How and where does Ido get it's vocabulary?</p></a>
+				</div>
 			</div>
 		</div>
     	<div class="ui container">
@@ -72,17 +82,20 @@
 					<div class="item">Less ancient words - Ido gets rid of all the unnecessary Ancient Greek roots, and a lot of Latin. While instead grab Latin roots where the languages don’t agree with each other.</div>
 					<div class="item">100% logical - Ido was given a huge logical boost (<a href="#Logical" style="color: #F2711C">see below</a>).</div>
 				</div>
-				<img src="havaji/imaji/idoflago.png">
+				<img src="havaji/imaji/jenkosteloinverted.png" style="width: 200px; height: 200px">
+				<h1 style="color: #2185D0; font-family: Lobster Two; text-align: center">Ido</h1>
 			</div>
 			<div class="ui orange stacked segment">
 				<h1 style="color: #F2711C; font-family: Lobster Two" id="History">How did Ido come to be?</h1>
 				<div class="ui fitted divider"></div>
-				<h3>Age of Volapük</h3>
-				<p>In 1879 came Volapük. The first man-made language that became big and popular. As it being the first huge create language, had it a lot of problems, and being overly complicated (than what it actually could be). Because of this, a lot of people started experimenting with languages themselves, but non got any more popular. After a short while, this toned down, and everyone just went with Volapük. Around 1890, things started to derail, people started arguing, and people started to create their own venison of Volapük. It was around that time, that people started leaving Volapük, and for the next 10-20, the amount of speakers of Volapük became but a hand-full. While people where arguing, and creating their own languages, stepped Zamenhof forward.</p>
-				<h3>Esperanto sneaked in</h3>
-				<p> Being a polyglot, and living in Poland, a bad place in the end of the 19-century. Since the Volapükian movement had crashed, he saw he could step in, and take over with his own language (as oppose to the other, newer variants of Volapük), he called it "Lingwe universala" (The Universal Language). Later, Zamenhof dropped most uses of "w", and the name was "Lingve internacia" (The International Language). After releasing his first book called "Lingve internacia", people started calling the language "Esperanto" (the nickname Zamenhof used for himself), instead of the accusal name. Esperanto was released at the perfect time, as almost every Volapükian that was left, jumped to Esperanto. It didn't take long before people started arguing over Esperanto, as it itself wasen't perfect (though better then Volapük). People started experimenting with creating their version of Esperanto (called "Esperantido", meaning "offspring of Esperanto"). It didn't take long, before Zamenhof became overwhelmed, and decided to do his own reform, instead of people making their own. The following year constructed Zamenhof his own, new Esperanto (2.0), but when he presented it to his followers, unexpectedly, the majority didn't take the changes Zamenhof made, instead using protesting and using the previous Esperanto (1.0). Zamenhof tried, and even though a lot took the changes, the majority kept using the previous. Zamenhof gave up, and the reform died.In the beginning of the 20-century, more auxiliary languages was made, and a group of people decided to open a Delegation to try to gather people to one language, instead of there being a lot of small different languages. The Delegation was made of several different people from several different countries, and most of them was professors or different high ranking professions. After looking at the different choices, and Esperanto being the "most perfect" of the bunch, someone within the group decided to propose to make a new language, based upon Esperanto. He (unknown who) wrote down several features he found immediately, but more could be changed with time. The group decided to take the offer, and the unknown member stepped forward, being Louis de Beaufront, the linguist in the group. He named the project: "Ido.</p>
-				<h3>Ido was born</h3>
-				<p>Louis de Beaufront, being a linguist, had more knowledge in language making, and could create a "more perfect" Esperanto. Zamenhof got outraged of this proposal, and forbid them from using the name "Esperanto" for the language. Under the following years, created the Delegation Ido. The Delegation went through several different suggestions, and the ones that wanted, voted on what they wanted. After the language was finished, the a union was created, calling themselves "Uniono di la Amiki di la Linguo Internaciona" (The Union of Friends of the International Language). Ido lived, and continued to developed, new features was proposed, and old was changed. Ido has lived for 108 years (in 2015).</p>
+				<div class="ui bulleted list">
+					<div class="item"><h3>Age of Volapük</h3></div>
+					<p>In 1879 came Volapük. The first man-made language that became big and popular. As it being the first huge create language, had it a lot of problems, and being overly complicated (than what it actually could be). Because of this, a lot of people started experimenting with languages themselves, but non got any more popular. After a short while, this toned down, and everyone just went with Volapük. Around 1890, things started to derail, people started arguing, and people started to create their own venison of Volapük. It was around that time, that people started leaving Volapük, and for the next 10-20, the amount of speakers of Volapük became but a hand-full. While people where arguing, and creating their own languages, stepped Zamenhof forward.</p>
+					<div class="item"><h3>Esperanto sneaked in</h3></div>
+					<p> Being a polyglot, and living in Poland, a bad place in the end of the 19-century. Since the Volapükian movement had crashed, he saw he could step in, and take over with his own language (as oppose to the other, newer variants of Volapük), he called it "Lingwe universala" (The Universal Language). Later, Zamenhof dropped most uses of "w", and the name was "Lingve internacia" (The International Language). After releasing his first book called "Lingve internacia", people started calling the language "Esperanto" (the nickname Zamenhof used for himself), instead of the accusal name. Esperanto was released at the perfect time, as almost every Volapükian that was left, jumped to Esperanto. It didn't take long before people started arguing over Esperanto, as it itself wasen't perfect (though better then Volapük). People started experimenting with creating their version of Esperanto (called "Esperantido", meaning "offspring of Esperanto"). It didn't take long, before Zamenhof became overwhelmed, and decided to do his own reform, instead of people making their own. The following year constructed Zamenhof his own, new Esperanto (2.0), but when he presented it to his followers, unexpectedly, the majority didn't take the changes Zamenhof made, instead using protesting and using the previous Esperanto (1.0). Zamenhof tried, and even though a lot took the changes, the majority kept using the previous. Zamenhof gave up, and the reform died.In the beginning of the 20-century, more auxiliary languages was made, and a group of people decided to open a Delegation to try to gather people to one language, instead of there being a lot of small different languages. The Delegation was made of several different people from several different countries, and most of them was professors or different high ranking professions. After looking at the different choices, and Esperanto being the "most perfect" of the bunch, someone within the group decided to propose to make a new language, based upon Esperanto. He (unknown who) wrote down several features he found immediately, but more could be changed with time. The group decided to take the offer, and the unknown member stepped forward, being Louis de Beaufront, the linguist in the group. He named the project: "Ido.</p>
+					<div class="item"><h3>Ido was born</h3></div>
+					<p>Louis de Beaufront, being a linguist, had more knowledge in language making, and could create a "more perfect" Esperanto. Zamenhof got outraged of this proposal, and forbid them from using the name "Esperanto" for the language. Under the following years, created the Delegation Ido. The Delegation went through several different suggestions, and the ones that wanted, voted on what they wanted. After the language was finished, the a union was created, calling themselves "Uniono di la Amiki di la Linguo Internaciona" (The Union of Friends of the International Language). Ido lived, and continued to developed, new features was proposed, and old was changed. In 2007, celebrated Ido its 100th birthday!</p>
+				</div>
 			</div>
 			<div class="ui orange stacked segment">
 				<h1 style="color: #F2711C; font-family: Lobster Two" id="Neutrality">Ido has total gender neutrality!</h1>
@@ -118,14 +131,14 @@
 						<tr>
 							<td><p>Gender</td>
 							<td><i class="orange intergender icon"></i></td>
-							<td><i class="blue male icon"></i></td>
-							<td><i class="blue male icon"></i></td>
-							<td><i class="pink female icon"></i></td>
-							<td><i class="pink female icon"></i></td>
-							<td><i class="blue male icon"></i></td>
-							<td><i class="pink female icon"></i></td>
-							<td><i class="blue male icon"></i></td>
-							<td><i class="pink female icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
 						</tr>
 					</tbody>
 				</table>
@@ -134,6 +147,9 @@
 					<tbody>
 						<tr>
 							<td><p>Ido</p></td>
+							<td><p>hom.o</p></td>
+							<td><p>hom.ul.o</p></td>
+							<td><p>hom.in.o</p></td>
 							<td><p>puer.o</p></td>
 							<td><p>puer.ul.o</p></td>
 							<td><p>puer.in.o</p></td>
@@ -143,6 +159,9 @@
 						</tr>
 						<tr>
 							<td><p>English</td>
+							<td><p>human, man</p></td>
+							<td><p>male person</p></td>
+							<td><p>female person</p></td>
 							<td><p>child</p></td>
 							<td><p>boy</p></td>
 							<td><p>girl</p></td>
@@ -153,11 +172,14 @@
 						<tr>
 							<td><p>Gender</td>
 							<td><i class="orange intergender icon"></i></td>
-							<td><i class="blue male icon"></i></td>
-							<td><i class="pink female icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
 							<td><i class="orange intergender icon"></i></td>
-							<td><i class="blue male icon"></i></td>
-							<td><i class="pink female icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
+							<td><i class="orange intergender icon"></i></td>
+							<td><i class="blue man icon"></i></td>
+							<td><i class="pink woman icon"></i></td>
 						</tr>
 					</tbody>
 				</table>
@@ -325,42 +347,42 @@
 				</table>
 				<p>Ido decided to continoue without <i>t</i> (as in Esperanto), but to drop the French <i>i</i> (or <i>j</i> in Esperanto). In Ido: <i>semano</i>, compare: <i>semanjo</i><br>This happens everywhere in Esperanto, since Esperantos philosophy is different. But this doesnt make Ido less bias towards French, or anyother language for that matter!<br>The Esperanto word for <i>dirt, mire</i> is <i>koto</i>, taken from German <i>Kot</i>. Problem here, is that the German word <i>Kot</i> has lost it's meaning for <i>dirt, mire</i>, and today only mean slang for <i>crap, shit etc</i>. Ido takes a look at French, Spanish and Italians word for <i>dirt, mire</i>: <i>fange</i>, <i>fango</i> and <i>fango</i>, and decided to take <i>fango</i>.<br>Even though Esperanto at time are bias towards French and German, and Ido correcting it, doent mean Ido are the opposite, neglecting them! Ido, for example, takes the French imperative <i>-ez</i>, oppose to Esperanto <i>-u</i>, and French ordinal <i>-ième</i> (in the form of <i>-esma</i>), oppose to Esperanto <i>-a</i>, and on the German side takes the German word for chicken/rooster <i>Huhn or Hahn</i>, and endup with <i>hano</i> (neutral, <i>rooster - hanulo, chicken - hanino</i>), oppose to Esperanto <i>koko</i> (male, <i>female - kokino</i>), and takes the German word for yeast <i>Hefe</i>, and endup with <i>hefo</i>, again, oppose to Esperanto <i>gisto</i>. Ido takes words in a smart and effective way, if none of the languages are united (or the majority), than Ido looks elsewhere!</p>
 				<p>Idos philosophy is: <u> to be as easy of a language as possible for the most amount of peaople as possible</u>, so that the most amount of people will have it easeier to learn (a universal second language); that is why the Delegation chose 6 specific languages as "control languages", or as we call them in Ido "the front languages (la fronta lingui)", they are: English (ca. 1.5 billion speakers), French (ca. 220 million speakers), German (ca. 100 million speakers), Italian (ca. 60 million speakers), Russian (165 million speakers), Spanish (490 million speakers). They are the most spoken languages in the world that have alot of things in common. Sadly, any Arabic, Chinese, etc. words where not introduced in Ido; they are a bit too different, and they would drag down the other languages. But, in return, by not selecting other languages, they got the following chart:</p>
-				<div class="ui green active progress" data-percent="38">
+				<div class="ui green progress" data-percent="38">
 					<div class="bar" style="transition: 300ms; -webkit-transition: 300ms; width: 38%;">
 						<div class="progress">38%</div>
 					</div>
 					<div class="label"><p>Words that can be found in <u>all 6 languages</u><br>(*hypotheticly; ca. 2.535 billion people would understand 38% of Ido, if everyone is monoglot)</p></div>
 				</div>
 				<br>
-				<div class="ui olive active progress" data-percent="21">
+				<div class="ui olive progress" data-percent="21">
 					<div class="bar" style="transition: 300ms; -webkit-transition: 300ms; width:21%;">
 						<div class="progress">21%</div>
 					</div>
 					<div class="label"><p>Words that can be found in <u>4 of the 6 languages</u><br>(*hypotheticly; ca. 1.690 billion people in the world would understand 21% of Ido, if everyone is monoglot)</p></div>
 				</div>
 				<br>
-				<div class="ui yellow active progress" data-percent="17">
+				<div class="ui yellow progress" data-percent="17">
 					<div class="bar" style="transition: 300ms; -webkit-transition: 300ms; width:17%;">
 						<div class="progress">17%</div>
 					</div>
 					<div class="label"><p>Words that can be found in <u>5 of the 6 languages</u><br>(*hypotheticly; ca. 2.1125 billion people in the world would understand 17% of Ido, if everyone is monoglot)</p></div>
 				</div>
 				<br>
-				<div class="ui orange active progress" data-percent="11">
+				<div class="ui orange progress" data-percent="11">
 					<div class="bar" style="transition: 300ms; -webkit-transition: 300ms; width:11%;">
 						<div class="progress">11%</div>
 					</div>
 					<div class="label"><p>Words that can be found in <u>3 of the 6 languages</u><br>(*hypotheticly; ca. 1.2675 billion people in the world would understand 11% of Ido, if everyone is monoglot)</p></div>
 				</div>
 				<br>
-				<div class="ui red active progress" data-percent="8">
+				<div class="ui red progress" data-percent="8">
 					<div class="bar" style="transition: 300ms; -webkit-transition: 300ms; width:8%;">
 						<div class="progress">8%</div>
 					</div>
 					<div class="label"><p>Words that can be found in <u>2 of the 6 languages</u><br>(*hypotheticly; ca. 845 million people in the world would understand 8% of Ido, if everyone is monoglot)</p></div>
 				</div>
 				<br>
-				<div class="ui red active progress" data-percent="5">
+				<div class="ui red progress" data-percent="5">
 					<div class="bar" style="transition: 300ms; -webkit-transition: 300ms; width:5%;">
 						<div class="progress">5%</div>
 					</div>

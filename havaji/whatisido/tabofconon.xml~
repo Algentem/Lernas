@@ -1,0 +1,11 @@
+<div class="ui orange inverted fixed vertical menu" style="top: 75px">
+	<a id="btn1" class="ui orange tiny button" onclick="$('#div1').load('havaji/whatisido/tabofconoff.xml');" style="color: #FFFFFF">Hide</a>
+	<div class="item"><div class="header"><p>Table of Content:</p></div></div>
+	<div class="menu">
+		<a class="item" href="#What" style="color: #FFFFFF"><p>What is Ido?</p></a>
+		<a class="item" href="#History" style="color: #FFFFFF"><p>How did Ido come to be?</p></a>
+		<a class="item" href="#Neutrality" style="color: #FFFFFF"><p>Ido has total gender neutrality!</p></a>
+		<a class="item" href="#Logical" style="color: #FFFFFF"><p>Works perfect, like a well-crafted machine!</p></a>
+		<a class="item" href="#Vocabulary" style="color: #FFFFFF"><p>How and where does Ido get it's vocabulary?</p></a>
+	</div>
+</div>

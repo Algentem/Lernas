@@ -1,0 +1,1 @@
+<div id="btn2" class="ui orange tiny fixed button" onclick="$('#div1').load('havaji/whatisido/tabofconon.xml');" style="color: #FFFFFF; position: fixed; top: 75px;">Show</div>

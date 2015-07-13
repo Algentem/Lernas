@@ -1,18 +1,19 @@
 <div class="ui container">
-	<div class="ui fixed vertical menu">
-		<div class="item"><div class="header">In this course:</div></div>
-		<div class="menu">
-			<div class="item active"><p>L'alfabeto</p></div>
-			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');"><p>La pronuncado</p></a>
-			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');"><p>La numbri</p></a>
-			<a class="item" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');"><p>Ordinara frazi</p></a>
-			<a class="item" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');"><p>Exameno</p></a>
-			<div class="ui fitted divider"></div>
-			<a class="item" href="fundamentali.html"><p>Exit course</p></a>
-		</div>
+	<div class="ui breadcrumb">
+			<a class="section" href="fundamentali.html"><i class="red big remove circle icon"></i></a>
+			<i class="minus icon"></i>
+			<div class="active section">L'alfabeto</div>
+			<i class="right caret icon"></i>
+			<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_3.xml');">La pronuncado</a>
+			<i class="right caret icon"></i>
+			<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_4.xml');">La numbri</a>
+			<i class="right caret icon"></i>
+			<a class="section" onclick="$('#div1').load('havaji/fundamentali/fundamentali_5.xml');">Ordinara frazi</a>
+			<i class="right caret icon"></i>
+			<a class="section" onclick="$('#div1').load('havaji/fundamentali/questiono.xml');">Exameno</a>
+			<i class="right caret icon"></i>
 	</div>
-	<br>
-	<h10>L'alfabeto (The alphabet)</h10>
+	<h1 style="font-family: Lobster Two">L'alfabeto (The alphabet)</h1>
 	<div class="ui fitted divider"></div>
 	<p>The alphabet is easy, flexible and contains the standard latin alphabet! In fact, Idos alphabet is exacly the same as the English 26 lettered alphabet! Here is the pronounciation of eatch letter:</p>
 	<table class="ui definition striped table">
